@@ -1,2 +1,3 @@
 # Soldier101-Station-Bot
-Bot to handle Soldier101 Station discord
+
+**Just an bot to operate Soldier101 Station**
