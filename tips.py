@@ -1,10 +1,7 @@
 import discord
 import requests
 import random
-from config import BOTTOKEN # comment this out if you want to use legacy token config (not recommended)
-
-#BOTTOKEN = Uncomment and put your token here if you decide to use legacy token config (not recommended)
-
+from config import BOTTOKEN
 
 
 
