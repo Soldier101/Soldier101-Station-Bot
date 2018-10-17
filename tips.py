@@ -17,6 +17,10 @@ async def on_message(message):
         TIPS = requests.get("https://raw.githubusercontent.com/Soldier101/Soldier101-Station/master/strings/tips.txt").text.split("\n")
         msgtip = random.choice(TIPS)
         await  client.send_message(message.channel, msgtip)
+    if message.content.startswith('!goontip'):
+        GOONTIPS = requests.get("https://raw.githubusercontent.com/goonstation/goonstation-2016/master/strings/roundstart_hints.txt").text.split("\n")
+        msgtip = random.choice(GOONTIPS)
+        await  client.send_message(message.channel, msgtip)
 
 
     if message.content.startswith('!die'):
